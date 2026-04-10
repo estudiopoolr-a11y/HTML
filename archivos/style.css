@@ -12,7 +12,6 @@ body {
     scroll-behavior: smooth;
 }
 
-/* Paleta de colores suave */
 :root {
     --primary: #e4e3e6;
     --secondary: #b0abb1;
@@ -22,7 +21,6 @@ body {
     --soft-gray: #f0ece8;
 }
 
-/* Navegación */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -67,7 +65,6 @@ body {
     border-bottom-color: var(--primary);
 }
 
-/* Sección Hero */
 .hero {
     min-height: 90vh;
     display: flex;
@@ -397,7 +394,6 @@ footer a {
     text-decoration: none;
 }
 
-/* Responsive */
 @media (max-width: 800px) {
     .navbar {
         flex-direction: column;
